@@ -1,8 +1,7 @@
 declare function require(name:string);
+var readline = require('readline');
+var process = require('process');
 var fs = require('fs');
-
-import * as readline from 'readline'; 
-import * as process from 'process';
 
 enum GoodType 
 {
