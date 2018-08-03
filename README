@@ -1,0 +1,17 @@
+To run this program, you'll need Node.js (https://nodejs.org/en/)
+You'll also need a typescript compiler (with npm: npm install -g typescript)
+Additionally, you'll need to install readline, fs, and process modules from 
+npm (npm install -g readline) (npm install -g fs) (npm install -g process) 
+
+To compile: 
+tsc -t 'ES6' ./totalCalculator.ts
+
+To run: 
+node ./totalCalculator.js
+
+You'll be prompted for a filename. The program will read the file for 
+a shopping list (or lists, separated by a blank line) of the format: 
+{quantity} {imported?} {good name} at {cost}
+
+It will output each item on the list[s], the total sales tax, and the 
+total cost. 
